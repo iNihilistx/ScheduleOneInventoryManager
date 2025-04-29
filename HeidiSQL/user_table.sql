@@ -1,0 +1,10 @@
+CREATE TABLE `user_table` (
+	`LoginID` INT(11) NOT NULL AUTO_INCREMENT,
+	`LoginUsername` VARCHAR(255) NOT NULL DEFAULT '0' COLLATE 'utf8mb4_bin',
+	`LoginPassword` VARCHAR(255) NOT NULL DEFAULT '0' COLLATE 'utf8mb4_bin',
+	PRIMARY KEY (`LoginID`) USING BTREE
+)
+COLLATE='utf8mb4_uca1400_ai_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=2
+;
